@@ -1,0 +1,134 @@
+            body {
+                background-image: url('bg.png');
+                background-size: cover;
+            }
+            nav {
+                  float: left;
+                  width: 10%;
+                  height:100%;
+                  background: #ccc;
+                  padding-left: 20px;
+                  margin-left:20px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            article {
+                float: left;
+                padding: 30px;
+                width: 80%;
+                margin-right:20px;
+                height:auto;
+                background-color: #f1f1f1;
+            }
+
+            section:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            #log {
+                float:right;
+                color:pink;
+                margin-right:30px;
+                margin-top:30px;
+                font-size : 20px
+            }
+            #pin {
+                text-align:center;
+                color:black;
+                padding-top:30px;
+                padding-bottom:30px;        
+                background-color:pink;
+            }
+            #myHeader {
+                background-color:black;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+            #cart {
+                float:right;
+                margin-bottom:8px;
+                margin-right:40px;
+                background-color:Crimson;
+                color:Cornsilk;
+                font-size : 25px
+            }
+            #sp {
+                text-align:left;
+                padding-top:30px;
+                font-size:15px;
+            }
+            .button {
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 10px 28px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            footer {
+                background-color: #777;
+                padding: 10px;
+                
+                text-align: center;
+                color: white;
+            }
+            #img {
+                width:250px;                                
+                height:200px;
+                margin-right:10%;
+                float: left;
+                margin-left:10%;
+            }
+            #abo {
+                background-color:white;
+                color:black;
+                text-align:center;
+                height:60%;
+                padding-top:30px;
+            }
+            #logHead {
+                margin-top:30px;
+                background-color:black;
+                text-align:center;
+                color:red;
+                padding-top:50px;
+                padding-bottom:50px;
+            }
+            #logBase {
+                background-color:grey;
+                padding-top:50px;
+                color:white; 
+                text-align:center;
+                padding-bottom:50px;
+            }
+            #ord {
+                text-align:center;
+                margin-left:60px;
+                padding-top:30px;
+                color:IndianRed;
+                font-size:23px;
+            }
+            #track {
+                background-color:white;
+                height:30%;
+                text-align:center;
+                padding-top:15%;
+             }
+            #adm {
+                float:right;
+                margin-right:50px;
+                font-size:25px;
+                background-color:green;
+                color:white;
+            }
